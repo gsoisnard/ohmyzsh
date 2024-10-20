@@ -28,7 +28,7 @@ elif (( ${+commands[more]} )); then
 fi
 
 ## super user alias
-alias _='sudo '
+# alias _='sudo '
 
 ## more intelligent acking for ubuntu users and no alias for users without ack
 if (( $+commands[ack-grep] )); then
